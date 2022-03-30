@@ -13,9 +13,9 @@
 <body>
   <div class="box">
     <h1> Sign In </h1>
-    <form name="myform" method="post" action="index2.html" label="required" onsubmit="validateform()">
-      <input type="text" placeholder="Name" name="name" class="input"><br>
-      <input type="password" placeholder="Password" name="password" class="input"><br>
+    <form name="myform" method="post" action="index2.html">
+      <input type="text" placeholder="Name" name="name" class="input" required minlength="2"><br>
+      <input type="password" placeholder="Password" name="password" class="input" required><br>
       <input type="submit" class="submit" value="Sign In"><br>
     </form>
 
